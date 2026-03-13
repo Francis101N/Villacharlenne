@@ -59,13 +59,13 @@
                                     <li><a href="/VillaCharlenne/about-us" class='text-dark'>About Us</a></li>
                                     <li><a href="services">Services</a></li>
                                     <li style="background-color: blue;"><a href="rooms" class='text-light'>Rooms</a></li>
-                                    <li><a href="">News</a></li>
-                                    <li><a href="contact">Contact</a></li>
+                                    <li><a href="news">News</a></li>
+                                    <!-- <li><a href="contact">Contact</a></li> -->
                                 </ul>
 
                                 <!-- Button -->
                                 <div class="menu-btn">
-                                    <a href="#" class="btn p-3" style="background-color:blue;">Make a Reservation</a>
+                                    <a href="contact" class="btn p-3" style="background-color:blue;">Make a Reservation</a>
                                 </div>
 
                             </div>
@@ -97,13 +97,13 @@
                             <div class="form-group">
                                 <label for="select1">Check In</label>
                                 <select class="form-control" id="select1">
-                                  <option>19 June</option>
-                                  <option>20 June</option>
-                                  <option>21 June</option>
-                                  <option>22 June</option>
-                                  <option>23 June</option>
-                                  <option>24 June</option>
-                                  <option>25 June</option>
+                                    <option>19 June</option>
+                                    <option>20 June</option>
+                                    <option>21 June</option>
+                                    <option>22 June</option>
+                                    <option>23 June</option>
+                                    <option>24 June</option>
+                                    <option>25 June</option>
                                 </select>
                             </div>
 
@@ -111,14 +111,14 @@
                             <div class="form-group">
                                 <label for="select2">Check Out</label>
                                 <select class="form-control" id="select2">
-                                  <option>20 June</option>
-                                  <option>21 June</option>
-                                  <option>22 June</option>
-                                  <option>23 June</option>
-                                  <option>24 June</option>
-                                  <option>25 June</option>
-                                  <option>26 June</option>
-                                  <option>27 June</option>
+                                    <option>20 June</option>
+                                    <option>21 June</option>
+                                    <option>22 June</option>
+                                    <option>23 June</option>
+                                    <option>24 June</option>
+                                    <option>25 June</option>
+                                    <option>26 June</option>
+                                    <option>27 June</option>
                                 </select>
                             </div>
 
@@ -126,11 +126,11 @@
                             <div class="form-group">
                                 <label for="select3">Adults</label>
                                 <select class="form-control" id="select3">
-                                  <option>02</option>
-                                  <option>03</option>
-                                  <option>04</option>
-                                  <option>05</option>
-                                  <option>06</option>
+                                    <option>02</option>
+                                    <option>03</option>
+                                    <option>04</option>
+                                    <option>05</option>
+                                    <option>06</option>
                                 </select>
                             </div>
 
@@ -138,11 +138,11 @@
                             <div class="form-group">
                                 <label for="select4">Childrens</label>
                                 <select class="form-control" id="select4">
-                                  <option>01</option>
-                                  <option>02</option>
-                                  <option>03</option>
-                                  <option>04</option>
-                                  <option>05</option>
+                                    <option>01</option>
+                                    <option>02</option>
+                                    <option>03</option>
+                                    <option>04</option>
+                                    <option>05</option>
                                 </select>
                             </div>
 
@@ -163,8 +163,8 @@
                 <div class="col-12 col-lg-6">
                     <div class="section-heading text-center">
                         <div class="line-"></div>
-                        <h2>Choose a room</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien.</p>
+                        <h2>Choose Your Perfect Room</h2>
+                        <p>Experience comfort and elegance at VillaCharlenne. Our rooms are designed to provide a relaxing atmosphere, modern amenities, and a memorable stay.</p>
                     </div>
                 </div>
             </div>
@@ -174,17 +174,13 @@
                 <!-- Single Rooms Area -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-rooms-area wow fadeInUp" data-wow-delay="100ms">
-                        <!-- Thumbnail -->
                         <div class="bg-thumbnail bg-img" style="background-image: url(img/bg-img/1.jpg);"></div>
-                        <!-- Price -->
                         <p class="price-from">From $150/night</p>
-                        <!-- Rooms Text -->
                         <div class="rooms-text">
                             <div class="line"></div>
                             <h4>Deluxe Room</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque.</p>
+                            <p>A stylish and spacious room designed with comfort in mind, perfect for guests seeking a relaxing and luxurious stay.</p>
                         </div>
-                        <!-- Book Room -->
                         <a href="#" class="book-room-btn btn palatin-btn">Book Room</a>
                     </div>
                 </div>
@@ -192,17 +188,13 @@
                 <!-- Single Rooms Area -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-rooms-area wow fadeInUp" data-wow-delay="200ms">
-                        <!-- Thumbnail -->
                         <div class="bg-thumbnail bg-img" style="background-image: url(img/bg-img/8.jpg);"></div>
-                        <!-- Price -->
                         <p class="price-from">From $150/night</p>
-                        <!-- Rooms Text -->
                         <div class="rooms-text">
                             <div class="line"></div>
                             <h4>Double Suite</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque.</p>
+                            <p>Perfect for couples or friends, this elegant suite offers extra space, comfort, and a welcoming atmosphere.</p>
                         </div>
-                        <!-- Book Room -->
                         <a href="#" class="book-room-btn btn palatin-btn">Book Room</a>
                     </div>
                 </div>
@@ -210,17 +202,13 @@
                 <!-- Single Rooms Area -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-rooms-area wow fadeInUp" data-wow-delay="300ms">
-                        <!-- Thumbnail -->
                         <div class="bg-thumbnail bg-img" style="background-image: url(img/bg-img/9.jpg);"></div>
-                        <!-- Price -->
                         <p class="price-from">From $100/night</p>
-                        <!-- Rooms Text -->
                         <div class="rooms-text">
                             <div class="line"></div>
                             <h4>Single Room</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque.</p>
+                            <p>A comfortable and cozy space designed for solo travelers seeking privacy and relaxation.</p>
                         </div>
-                        <!-- Book Room -->
                         <a href="#" class="book-room-btn btn palatin-btn">Book Room</a>
                     </div>
                 </div>
@@ -228,17 +216,13 @@
                 <!-- Single Rooms Area -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-rooms-area wow fadeInUp" data-wow-delay="100ms">
-                        <!-- Thumbnail -->
                         <div class="bg-thumbnail bg-img" style="background-image: url(img/bg-img/15.jpg);"></div>
-                        <!-- Price -->
                         <p class="price-from">From $150/night</p>
-                        <!-- Rooms Text -->
                         <div class="rooms-text">
                             <div class="line"></div>
-                            <h4>Deluxe Room</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque.</p>
+                            <h4>Premium Deluxe Room</h4>
+                            <p>Enjoy upgraded comfort with stylish interiors and relaxing ambiance at VillaCharlenne.</p>
                         </div>
-                        <!-- Book Room -->
                         <a href="#" class="book-room-btn btn palatin-btn">Book Room</a>
                     </div>
                 </div>
@@ -246,17 +230,13 @@
                 <!-- Single Rooms Area -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-rooms-area wow fadeInUp" data-wow-delay="200ms">
-                        <!-- Thumbnail -->
                         <div class="bg-thumbnail bg-img" style="background-image: url(img/bg-img/16.jpg);"></div>
-                        <!-- Price -->
                         <p class="price-from">From $150/night</p>
-                        <!-- Rooms Text -->
                         <div class="rooms-text">
                             <div class="line"></div>
-                            <h4>Double Suite</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque.</p>
+                            <h4>Executive Suite</h4>
+                            <p>Designed for guests who appreciate space and elegance, offering premium comfort and a refined atmosphere.</p>
                         </div>
-                        <!-- Book Room -->
                         <a href="#" class="book-room-btn btn palatin-btn">Book Room</a>
                     </div>
                 </div>
@@ -264,17 +244,13 @@
                 <!-- Single Rooms Area -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-rooms-area wow fadeInUp" data-wow-delay="300ms">
-                        <!-- Thumbnail -->
                         <div class="bg-thumbnail bg-img" style="background-image: url(img/bg-img/17.jpg);"></div>
-                        <!-- Price -->
                         <p class="price-from">From $100/night</p>
-                        <!-- Rooms Text -->
                         <div class="rooms-text">
                             <div class="line"></div>
-                            <h4>Single Room</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque.</p>
+                            <h4>Comfort Room</h4>
+                            <p>A well-designed room offering all the essentials for a peaceful and comfortable stay.</p>
                         </div>
-                        <!-- Book Room -->
                         <a href="#" class="book-room-btn btn palatin-btn">Book Room</a>
                     </div>
                 </div>
@@ -282,17 +258,13 @@
                 <!-- Single Rooms Area -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-rooms-area wow fadeInUp" data-wow-delay="100ms">
-                        <!-- Thumbnail -->
                         <div class="bg-thumbnail bg-img" style="background-image: url(img/bg-img/18.jpg);"></div>
-                        <!-- Price -->
                         <p class="price-from">From $150/night</p>
-                        <!-- Rooms Text -->
                         <div class="rooms-text">
                             <div class="line"></div>
-                            <h4>Deluxe Room</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque.</p>
+                            <h4>Luxury Deluxe Room</h4>
+                            <p>Experience elevated comfort with stylish decor and a relaxing environment.</p>
                         </div>
-                        <!-- Book Room -->
                         <a href="#" class="book-room-btn btn palatin-btn">Book Room</a>
                     </div>
                 </div>
@@ -300,17 +272,13 @@
                 <!-- Single Rooms Area -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-rooms-area wow fadeInUp" data-wow-delay="200ms">
-                        <!-- Thumbnail -->
                         <div class="bg-thumbnail bg-img" style="background-image: url(img/bg-img/19.jpg);"></div>
-                        <!-- Price -->
                         <p class="price-from">From $150/night</p>
-                        <!-- Rooms Text -->
                         <div class="rooms-text">
                             <div class="line"></div>
-                            <h4>Double Suite</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque.</p>
+                            <h4>Family Suite</h4>
+                            <p>Spacious and comfortable, ideal for families or groups looking to enjoy VillaCharlenne together.</p>
                         </div>
-                        <!-- Book Room -->
                         <a href="#" class="book-room-btn btn palatin-btn">Book Room</a>
                     </div>
                 </div>
@@ -318,23 +286,18 @@
                 <!-- Single Rooms Area -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-rooms-area wow fadeInUp" data-wow-delay="300ms">
-                        <!-- Thumbnail -->
                         <div class="bg-thumbnail bg-img" style="background-image: url(img/bg-img/20.jpg);"></div>
-                        <!-- Price -->
                         <p class="price-from">From $100/night</p>
-                        <!-- Rooms Text -->
                         <div class="rooms-text">
                             <div class="line"></div>
-                            <h4>Single Room</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque.</p>
+                            <h4>Standard Room</h4>
+                            <p>A cozy and affordable room offering comfort and convenience for a pleasant stay.</p>
                         </div>
-                        <!-- Book Room -->
                         <a href="#" class="book-room-btn btn palatin-btn">Book Room</a>
                     </div>
                 </div>
 
                 <div class="col-12">
-                    <!-- Pagination -->
                     <div class="pagination-area wow fadeInUp" data-wow-delay="400ms">
                         <nav>
                             <ul class="pagination">
@@ -352,48 +315,9 @@
     <!-- ##### Rooms Area End ##### -->
 
     <!-- ##### Footer Area Start ##### -->
-    <footer class="footer-area">
-        <div class="container">
-            <div class="row">
-
-                <!-- Footer Widget Area -->
-                <div class="col-12 col-lg-5">
-                    <div class="footer-widget-area mt-50">
-                        <a href="#" class="d-block mb-5"><img src="img/core-img/logo.png" alt=""></a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. </p>
-                    </div>
-                </div>
-
-                <!-- Footer Widget Area -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="footer-widget-area mt-50">
-                        <h6 class="widget-title mb-5">Find us on the map</h6>
-                        <img src="img/bg-img/footer-map.png" alt="">
-                    </div>
-                </div>
-
-                <!-- Footer Widget Area -->
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="footer-widget-area mt-50">
-                        <h6 class="widget-title mb-5">Subscribe to our newsletter</h6>
-                        <form action="#" method="post" class="subscribe-form">
-                            <input type="email" name="subscribe-email" id="subscribeemail" placeholder="Your E-mail">
-                            <button type="submit">Subscribe</button>
-                        </form>
-                    </div>
-                </div>
-
-                <!-- Copywrite Text -->
-                <div class="col-12">
-                    <div class="copywrite-text mt-30">
-                        <p><a href="#"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <?php
+    include("inc/footer.php");
+    ?>
     <!-- ##### Footer Area End ##### -->
 
     <!-- ##### All Javascript Script ##### -->

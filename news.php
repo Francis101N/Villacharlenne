@@ -9,7 +9,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Contact Us | Villa Charlenne</title>
+    <title>News | Villa Charlenne</title>
 
     <!-- Favicon -->
     <link rel="icon" href="img/core-img/favicon.ico">
@@ -37,7 +37,7 @@
                     <nav class="classy-navbar justify-content-between" id="palatinNav">
 
                         <!-- Nav brand -->
-                        <a href="index.php" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
+                        <a href="index.html" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
@@ -55,12 +55,12 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li class=""><a href="index">Home</a></li>
+                                    <li class=""><a href="index.html">Home</a></li>
                                     <li><a href="/VillaCharlenne/about-us">About Us</a></li>
-                                    <li><a href="services" class='text-dark'>Services</a></li>
+                                    <li><a href="services">Services</a></li>
                                     <li><a href="rooms">Rooms</a></li>
-                                    <li><a href="news">News</a></li>
-                                    <!-- <li style="background-color: blue;"><a href="contact" class='text-light'>Contact</a></li> -->
+                                    <li style="background-color: blue;"><a href="news" class='text-light'>News</a></li>
+                                    <!-- <li><a href="contact">Contact</a></li> -->
                                 </ul>
 
                                 <!-- Button -->
@@ -79,9 +79,9 @@
     <!-- ##### Header Area End ##### -->
 
     <!-- ##### Breadcumb Area Start ##### -->
-    <section class="breadcumb-area bg-img d-flex align-items-center justify-content-center" style="background-image: url(img/bg-img/bg-8.jpg);">
+    <section class="breadcumb-area bg-img d-flex align-items-center justify-content-center" style="background-image: url(img/bg-img/bg-7.jpg);">
         <div class="bradcumbContent">
-            <h2>Contact</h2>
+            <h2>News</h2>
         </div>
     </section>
     <!-- ##### Breadcumb Area End ##### -->
@@ -156,141 +156,79 @@
     </div>
     <!-- ##### Book Now Area End ##### -->
 
-    <!-- ##### Contact Area Start ##### -->
-    <section class="contact-information-area">
-        <div class="container">
-            <div class="row">
-
-                <!-- Single Contact Information -->
-                <div class="col-12 col-lg-4">
-                    <div class="single-contact-information mb-100">
-                        <div class="section-text">
-                            <h3>VillaCharlenne</h3>
-                            <p>Visit VillaCharlenne and experience comfort, elegance, and exceptional hospitality in a relaxing environment.</p>
-                        </div>
-
-                        <div class="contact-content d-flex">
-                            <p>Address</p>
-                            <p>123 VillaCharlenne Drive <br>Lekki, Lagos, Nigeria</p>
-                        </div>
-
-                        <div class="contact-content d-flex">
-                            <p>Phone</p>
-                            <p>+234 800 000 0000</p>
-                        </div>
-
-                        <div class="contact-content d-flex">
-                            <p>E-mail</p>
-                            <p>info@villacharlenne.com</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Contact Information -->
-                <div class="col-12 col-lg-4">
-                    <div class="single-contact-information mb-100">
-                        <div class="section-text">
-                            <h3>Reservations</h3>
-                            <p>Our reservations team is always available to help you plan the perfect stay at VillaCharlenne.</p>
-                        </div>
-
-                        <div class="contact-content d-flex">
-                            <p>Address</p>
-                            <p>Reservations Office <br>VillaCharlenne, Lagos</p>
-                        </div>
-
-                        <div class="contact-content d-flex">
-                            <p>Phone</p>
-                            <p>+234 801 000 0000</p>
-                        </div>
-
-                        <div class="contact-content d-flex">
-                            <p>E-mail</p>
-                            <p>reservations@villacharlenne.com</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Contact Information -->
-                <div class="col-12 col-lg-4">
-                    <div class="single-contact-information mb-100">
-                        <div class="section-text">
-                            <h3>Customer Support</h3>
-                            <p>Have questions or special requests? Our support team is ready to assist you anytime.</p>
-                        </div>
-
-                        <div class="contact-content d-flex">
-                            <p>Address</p>
-                            <p>Customer Service Desk <br>VillaCharlenne, Lagos</p>
-                        </div>
-
-                        <div class="contact-content d-flex">
-                            <p>Phone</p>
-                            <p>+234 802 000 0000</p>
-                        </div>
-
-                        <div class="contact-content d-flex">
-                            <p>E-mail</p>
-                            <p>support@villacharlenne.com</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!-- ##### Contact Area End ##### -->
-
-    <!-- ##### Contact Form Area Start ##### -->
-    <section class="contact-form-area mb-100">
+    <!-- ##### Blog Area Start ##### -->
+    <div class="blog-area section-padding-0-100">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="section-heading">
-                        <div class="line-"></div>
-                        <h2>Get in Touch</h2>
-                    </div>
-                </div>
-            </div>
+                    <div class="palatin-blog-posts">
 
-            <div class="row">
-                <div class="col-12">
-                    <!-- Contact Form -->
-                    <form action="#" method="post">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <input type="text" class="form-control" name="text" placeholder="Your Name">
+                        <!-- ##### Single Blog Post ##### -->
+                        <div class="single-blog-post mb-100 wow fadeInUp" data-wow-delay="100ms">
+                            <!-- Post Thumb -->
+                            <div class="blog-post-thumb">
+                                <img src="img/blog-img/1.jpg" alt="">
                             </div>
-                            <div class="col-lg-4">
-                                <input type="email" class="form-control" name="email" placeholder="Your Email">
-                            </div>
-                            <div class="col-lg-4">
-                                <input type="text" class="form-control" name="subject" placeholder="Subject">
-                            </div>
-                            <div class="col-12">
-                                <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
-                            </div>
-                            <div class="col-12">
-                                <button type="submit" class="btn palatin-btn mt-50">Send Message</button>
+                            <!-- Post Content -->
+                            <div class="post-content">
+                                <!-- Post Date-->
+                                <a href="#" class="post-date btn palatin-btn">March 10, 2026</a>
+                                <!-- Post Title -->
+                                <a href="#" class="post-title">Experience Luxury at VillaCharlenne</a>
+                                <div class="post-meta d-flex justify-content-center"></div>
+                                <!-- Post Excerpt -->
+                                <p>Discover the elegance and comfort that define VillaCharlenne. Our beautifully designed spaces, relaxing atmosphere, and exceptional hospitality create the perfect destination for a memorable getaway.</p>
                             </div>
                         </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ##### Contact Form Area End ##### -->
 
-    <!-- ##### Google Maps ##### -->
-    <div class="map-area mb-100">
-        <div class="container">
-            <div class="row">
+                        <!-- ##### Single Blog Post ##### -->
+                        <div class="single-blog-post mb-100 wow fadeInUp" data-wow-delay="300ms">
+                            <!-- Post Thumb -->
+                            <div class="blog-post-thumb">
+                                <img src="img/blog-img/2.jpg" alt="">
+                            </div>
+                            <!-- Post Content -->
+                            <div class="post-content">
+                                <!-- Post Date-->
+                                <a href="#" class="post-date btn palatin-btn">March 12, 2026</a>
+                                <!-- Post Title -->
+                                <a href="#" class="post-title">Relax by Our Exclusive Pool & Lounge</a>
+                                <div class="post-meta d-flex justify-content-center"></div>
+                                <!-- Post Excerpt -->
+                                <p>Unwind in style at the VillaCharlenne poolside lounge. Enjoy refreshing drinks, a serene environment, and the perfect setting to relax and socialize.</p>
+                            </div>
+                        </div>
+
+                        <!-- ##### Single Blog Post ##### -->
+                        <div class="single-blog-post mb-100 wow fadeInUp" data-wow-delay="500ms">
+                            <!-- Post Thumb -->
+                            <div class="blog-post-thumb">
+                                <img src="img/blog-img/3.jpg" alt="">
+                            </div>
+                            <!-- Post Content -->
+                            <div class="post-content">
+                                <!-- Post Date-->
+                                <a href="#" class="post-date btn palatin-btn">March 15, 2026</a>
+                                <!-- Post Title -->
+                                <a href="#" class="post-title">3 Tips for the Perfect VillaCharlenne Stay</a>
+                                <div class="post-meta d-flex justify-content-center"></div>
+                                <!-- Post Excerpt -->
+                                <p>Make the most of your stay at VillaCharlenne by exploring our luxury amenities, relaxing spa services, and curated experiences designed for ultimate comfort and enjoyment.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
                 <div class="col-12">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22236.40558254599!2d-118.25292394686001!3d34.057682914027104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2z4Kay4Ka4IOCmj-CmnuCnjeCmnOCnh-CmsuCnh-CmuCwg4KaV4KeN4Kav4Ka-4Kay4Ka_4Kar4KeL4Kaw4KeN4Kao4Ka_4Kav4Ka84Ka-LCDgpq7gpr7gprDgp43gppXgpr_gpqgg4Kav4KeB4KaV4KeN4Kak4Kaw4Ka-4Ka34KeN4Kaf4KeN4Kaw!5e0!3m2!1sbn!2sbd!4v1532328708137" allowfullscreen></iframe>
+                    <div class="load-more-btn text-center wow fadeInUp" data-wow-delay="700ms">
+                        <a href="#" class="btn palatin-btn">View More</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- ##### Blog Area End ##### -->
 
     <!-- ##### Footer Area Start ##### -->
     <?php

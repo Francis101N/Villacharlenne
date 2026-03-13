@@ -28,7 +28,7 @@
     </div>
 
     <!-- ##### Header Area Start ##### -->
-  <header class="header-area">
+    <header class="header-area">
         <!-- Navbar Area -->
         <div class="palatin-main-menu">
             <div class="classy-nav-container breakpoint-off">
@@ -59,13 +59,13 @@
                                     <li style="background-color: blue;"><a href="/VillaCharlenne/about-us" class='text-light'>About Us</a></li>
                                     <li><a href="services">Services</a></li>
                                     <li><a href="rooms">Rooms</a></li>
-                                    <li><a href="">News</a></li>
-                                    <li><a href="contact">Contact</a></li>
+                                    <li><a href="news">News</a></li>
+                                    <!-- <li><a href="contact">Contact</a></li> -->
                                 </ul>
 
                                 <!-- Button -->
                                 <div class="menu-btn">
-                                    <a href="#" class="btn p-3" style="background-color:blue;">Make a Reservation</a>
+                                    <a href="contact" class="btn p-3" style="background-color:blue;">Make a Reservation</a>
                                 </div>
 
                             </div>
@@ -97,13 +97,13 @@
                             <div class="form-group">
                                 <label for="select1">Check In</label>
                                 <select class="form-control" id="select1">
-                                  <option>19 June</option>
-                                  <option>20 June</option>
-                                  <option>21 June</option>
-                                  <option>22 June</option>
-                                  <option>23 June</option>
-                                  <option>24 June</option>
-                                  <option>25 June</option>
+                                    <option>19 June</option>
+                                    <option>20 June</option>
+                                    <option>21 June</option>
+                                    <option>22 June</option>
+                                    <option>23 June</option>
+                                    <option>24 June</option>
+                                    <option>25 June</option>
                                 </select>
                             </div>
 
@@ -111,14 +111,14 @@
                             <div class="form-group">
                                 <label for="select2">Check Out</label>
                                 <select class="form-control" id="select2">
-                                  <option>20 June</option>
-                                  <option>21 June</option>
-                                  <option>22 June</option>
-                                  <option>23 June</option>
-                                  <option>24 June</option>
-                                  <option>25 June</option>
-                                  <option>26 June</option>
-                                  <option>27 June</option>
+                                    <option>20 June</option>
+                                    <option>21 June</option>
+                                    <option>22 June</option>
+                                    <option>23 June</option>
+                                    <option>24 June</option>
+                                    <option>25 June</option>
+                                    <option>26 June</option>
+                                    <option>27 June</option>
                                 </select>
                             </div>
 
@@ -126,11 +126,11 @@
                             <div class="form-group">
                                 <label for="select3">Adults</label>
                                 <select class="form-control" id="select3">
-                                  <option>02</option>
-                                  <option>03</option>
-                                  <option>04</option>
-                                  <option>05</option>
-                                  <option>06</option>
+                                    <option>02</option>
+                                    <option>03</option>
+                                    <option>04</option>
+                                    <option>05</option>
+                                    <option>06</option>
                                 </select>
                             </div>
 
@@ -138,11 +138,11 @@
                             <div class="form-group">
                                 <label for="select4">Childrens</label>
                                 <select class="form-control" id="select4">
-                                  <option>01</option>
-                                  <option>02</option>
-                                  <option>03</option>
-                                  <option>04</option>
-                                  <option>05</option>
+                                    <option>01</option>
+                                    <option>02</option>
+                                    <option>03</option>
+                                    <option>04</option>
+                                    <option>05</option>
                                 </select>
                             </div>
 
@@ -164,10 +164,13 @@
                     <div class="about-text mb-100">
                         <div class="section-heading">
                             <div class="line-"></div>
-                            <h2>A place to remember</h2>
+                            <h2>Your Home Away From Home</h2>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.</p>
-                        <a href="#" class="btn palatin-btn mt-50">Read More</a>
+                        <p>At VillaCharlenne, we provide curated stays and unique experiences
+                            around the world. From luxury apartments to cozy villas, each property
+                            is selected to ensure comfort, style, and convenience. Our mission is
+                            to make every trip memorable and stress-free for our guests.</p>
+                        <a href="about-us" class="btn palatin-btn mt-50">Read More</a>
                     </div>
                 </div>
 
@@ -188,8 +191,10 @@
                 <div class="col-12 col-lg-8">
                     <div class="section-heading text-center white">
                         <div class="line-"></div>
-                        <h2>Our Milestones</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum.</p>
+                        <h2>Our Achievements</h2>
+                        <p>Over the years, we’ve proudly hosted travelers worldwide, offering
+                            exceptional stays, seamless bookings, and experiences that keep
+                            our guests coming back for more.</p>
                     </div>
                 </div>
             </div>
@@ -201,8 +206,8 @@
                     <div class="single-cool-fact mb-100 wow fadeInUp" data-wow-delay="300ms">
                         <div class="scf-text">
                             <i class="icon-cocktail-1"></i>
-                            <h2><span class="counter">231</span></h2>
-                            <p>Cocktails/day</p>
+                            <h2><span class="counter">150</span></h2>
+                            <p>Properties Listed</p>
                         </div>
                     </div>
                 </div>
@@ -212,8 +217,8 @@
                     <div class="single-cool-fact mb-100 wow fadeInUp" data-wow-delay="500ms">
                         <div class="scf-text">
                             <i class="icon-swimming-pool"></i>
-                            <h2><span class="counter">3</span></h2>
-                            <p>Pools</p>
+                            <h2><span class="counter">12</span></h2>
+                            <p>Pools & Amenities</p>
                         </div>
                     </div>
                 </div>
@@ -223,8 +228,8 @@
                     <div class="single-cool-fact mb-100 wow fadeInUp" data-wow-delay="700ms">
                         <div class="scf-text">
                             <i class="icon-resort"></i>
-                            <h2><span class="counter">79</span></h2>
-                            <p>Rooms</p>
+                            <h2><span class="counter">5000</span> + </h2>
+                            <p>Happy Guests</p>
                         </div>
                     </div>
                 </div>
@@ -234,8 +239,8 @@
                     <div class="single-cool-fact mb-100 wow fadeInUp" data-wow-delay="900ms">
                         <div class="scf-text">
                             <i class="icon-restaurant"></i>
-                            <h2><span class="counter">25</span></h2>
-                            <p>Apartments</p>
+                            <h2><span class="counter">80</span></h2>
+                            <p>Cities Covered</p>
                         </div>
                     </div>
                 </div>
@@ -252,48 +257,48 @@
                 <div class="col-12">
                     <div class="section-heading text-center">
                         <div class="line-"></div>
-                        <h2>Our Hotel</h2>
+                        <h2>Our Villa</h2>
                     </div>
                 </div>
             </div>
 
             <div class="row justify-content-center">
-                <!-- Single Hotel Info -->
+                <!-- Single Villa Info -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-hotel-info mb-100">
                         <div class="hotel-info-text">
-                            <h6><span class="fa fa-check"></span> Donec malesuada lorem maximus mauris</h6>
-                            <h6><span class="fa fa-check"></span> Integer tempus ligula sem, id feugiat</h6>
-                            <h6><span class="fa fa-check"></span> Malesuada lorem maximus mauris sceleri </h6>
+                            <h6><span class="fa fa-check"></span> Spacious living areas with modern décor</h6>
+                            <h6><span class="fa fa-check"></span> Private pools and outdoor lounges</h6>
+                            <h6><span class="fa fa-check"></span> Fully equipped kitchens and dining spaces</h6>
                         </div>
                         <div class="hotel-img">
-                            <img src="img/bg-img/3.jpg" alt="">
+                            <img src="img/bg-img/3.jpg" alt="Villa Image 1">
                         </div>
                     </div>
                 </div>
-                <!-- Single Hotel Info -->
+                <!-- Single Villa Info -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-hotel-info mb-100">
                         <div class="hotel-info-text">
-                            <h6><span class="fa fa-check"></span> Tempus ligula sem, id feugiat quam</h6>
-                            <h6><span class="fa fa-check"></span> Integer tempus ligula sem, id feugiat</h6>
-                            <h6><span class="fa fa-check"></span> Esuada lorem maximus mauris sceleri</h6>
+                            <h6><span class="fa fa-check"></span> Stunning sea views and beachfront access</h6>
+                            <h6><span class="fa fa-check"></span> Cozy bedrooms with premium bedding</h6>
+                            <h6><span class="fa fa-check"></span> Complimentary Wi-Fi and smart TVs</h6>
                         </div>
                         <div class="hotel-img">
-                            <img src="img/bg-img/10.jpg" alt="">
+                            <img src="img/bg-img/10.jpg" alt="Villa Image 2">
                         </div>
                     </div>
                 </div>
-                <!-- Single Hotel Info -->
+                <!-- Single Villa Info -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-hotel-info mb-100">
                         <div class="hotel-info-text">
-                            <h6><span class="fa fa-check"></span> Tempus ligula sem, id feugiat quam</h6>
-                            <h6><span class="fa fa-check"></span> Integer tempus ligula sem, id feugiat</h6>
-                            <h6><span class="fa fa-check"></span> Esuada lorem maximus mauris sceleri</h6>
+                            <h6><span class="fa fa-check"></span> Elegant bathrooms with luxury amenities</h6>
+                            <h6><span class="fa fa-check"></span> Air conditioning and climate control</h6>
+                            <h6><span class="fa fa-check"></span> 24/7 concierge and guest support</h6>
                         </div>
                         <div class="hotel-img">
-                            <img src="img/bg-img/11.jpg" alt="">
+                            <img src="img/bg-img/11.jpg" alt="Villa Image 3">
                         </div>
                     </div>
                 </div>
@@ -310,26 +315,35 @@
                     <div class="testimonial-content">
                         <div class="section-heading text-center">
                             <div class="line-"></div>
-                            <h2>What Clients Say</h2>
+                            <h2>What Our Guests Say</h2>
                         </div>
-                        
+
                         <!-- Testimonial Slides -->
                         <div class="testimonial-slides owl-carousel">
-                            
+
                             <!-- Single Testimonial -->
                             <div class="single-testimonial">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.</p>
-                                <h6>Michael Smith, <span style='color:blue;'>Client</span></h6>
-                                <img src="img/core-img/trip.png" alt="">
+                                <p>
+                                    “Our stay at VillaCharlenne was simply amazing! The villa was elegant, spacious,
+                                    and had every amenity we needed. The private pool and breathtaking sea view made
+                                    our vacation unforgettable. Highly recommended for families and couples alike.”
+                                </p>
+                                <h6>Emily Johnson, <span style='color:blue;'>Traveler</span></h6>
+                                <img src="img/core-img/trip.png" alt="Guest Image">
                             </div>
-                            
+
                             <!-- Single Testimonial -->
                             <div class="single-testimonial">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.</p>
-                                <h6>Nazrul Islam, <span style='color:blue;' >Developer</span></h6>
-                                <img src="img/core-img/trip.png" alt="">
+                                <p>
+                                    “VillaCharlenne exceeded all expectations! The booking process was seamless,
+                                    the staff was attentive, and the villa’s design is stunning. We felt completely
+                                    at home while enjoying a luxurious experience. Will definitely return!”
+                                </p>
+                                <h6>David Lee, <span style='color:blue;'>Guest</span></h6>
+                                <img src="img/core-img/trip.png" alt="Guest Image">
                             </div>
-                            
+
+                            <!-- Optional: Add more testimonials here -->
                         </div>
                     </div>
                 </div>
@@ -339,48 +353,9 @@
     <!-- ##### Testimonial Area End ##### -->
 
     <!-- ##### Footer Area Start ##### -->
-    <footer class="footer-area">
-        <div class="container">
-            <div class="row">
-
-                <!-- Footer Widget Area -->
-                <div class="col-12 col-lg-5">
-                    <div class="footer-widget-area mt-50">
-                        <a href="#" class="d-block mb-5"><img src="img/core-img/logo.png" alt=""></a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. </p>
-                    </div>
-                </div>
-
-                <!-- Footer Widget Area -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="footer-widget-area mt-50">
-                        <h6 class="widget-title mb-5">Find us on the map</h6>
-                        <img src="img/bg-img/footer-map.png" alt="">
-                    </div>
-                </div>
-
-                <!-- Footer Widget Area -->
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="footer-widget-area mt-50">
-                        <h6 class="widget-title mb-5">Subscribe to our newsletter</h6>
-                        <form action="#" method="post" class="subscribe-form">
-                            <input type="email" name="subscribe-email" id="subscribeemail" placeholder="Your E-mail">
-                            <button type="submit">Subscribe</button>
-                        </form>
-                    </div>
-                </div>
-
-                <!-- Copywrite Text -->
-                <div class="col-12">
-                    <div class="copywrite-text mt-30">
-                        <p><a href="#"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <?php
+    include("inc/footer.php");
+    ?>
     <!-- ##### Footer Area End ##### -->
 
     <!-- ##### All Javascript Script ##### -->

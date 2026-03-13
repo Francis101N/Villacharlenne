@@ -58,14 +58,14 @@
                                     <li class=""><a href="index.html">Home</a></li>
                                     <li><a href="/VillaCharlenne/about-us">About Us</a></li>
                                     <li style="background-color: blue;"><a href="services.php" class='text-light'>Services</a></li>
-                                    <li><a href="rooms.php">Rooms</a></li>
-                                    <li><a href="">News</a></li>
-                                    <li><a href="contact.php">Contact</a></li>
+                                    <li><a href="rooms">Rooms</a></li>
+                                    <li><a href="news">News</a></li>
+                                    <!-- <li><a href="contact">Contact</a></li> -->
                                 </ul>
 
                                 <!-- Button -->
                                 <div class="menu-btn">
-                                    <a href="#" class="btn p-3" style="background-color:blue;">Make a Reservation</a>
+                                    <a href="contact" class="btn p-3" style="background-color:blue;">Make a Reservation</a>
                                 </div>
 
                             </div>
@@ -97,13 +97,13 @@
                             <div class="form-group">
                                 <label for="select1">Check In</label>
                                 <select class="form-control" id="select1">
-                                  <option>19 June</option>
-                                  <option>20 June</option>
-                                  <option>21 June</option>
-                                  <option>22 June</option>
-                                  <option>23 June</option>
-                                  <option>24 June</option>
-                                  <option>25 June</option>
+                                    <option>19 June</option>
+                                    <option>20 June</option>
+                                    <option>21 June</option>
+                                    <option>22 June</option>
+                                    <option>23 June</option>
+                                    <option>24 June</option>
+                                    <option>25 June</option>
                                 </select>
                             </div>
 
@@ -111,14 +111,14 @@
                             <div class="form-group">
                                 <label for="select2">Check Out</label>
                                 <select class="form-control" id="select2">
-                                  <option>20 June</option>
-                                  <option>21 June</option>
-                                  <option>22 June</option>
-                                  <option>23 June</option>
-                                  <option>24 June</option>
-                                  <option>25 June</option>
-                                  <option>26 June</option>
-                                  <option>27 June</option>
+                                    <option>20 June</option>
+                                    <option>21 June</option>
+                                    <option>22 June</option>
+                                    <option>23 June</option>
+                                    <option>24 June</option>
+                                    <option>25 June</option>
+                                    <option>26 June</option>
+                                    <option>27 June</option>
                                 </select>
                             </div>
 
@@ -126,11 +126,11 @@
                             <div class="form-group">
                                 <label for="select3">Adults</label>
                                 <select class="form-control" id="select3">
-                                  <option>02</option>
-                                  <option>03</option>
-                                  <option>04</option>
-                                  <option>05</option>
-                                  <option>06</option>
+                                    <option>02</option>
+                                    <option>03</option>
+                                    <option>04</option>
+                                    <option>05</option>
+                                    <option>06</option>
                                 </select>
                             </div>
 
@@ -138,11 +138,11 @@
                             <div class="form-group">
                                 <label for="select4">Childrens</label>
                                 <select class="form-control" id="select4">
-                                  <option>01</option>
-                                  <option>02</option>
-                                  <option>03</option>
-                                  <option>04</option>
-                                  <option>05</option>
+                                    <option>01</option>
+                                    <option>02</option>
+                                    <option>03</option>
+                                    <option>04</option>
+                                    <option>05</option>
                                 </select>
                             </div>
 
@@ -165,10 +165,15 @@
                     <div class="service-intro-text mb-100">
                         <div class="section-heading">
                             <div class="line-"></div>
-                            <h2>Amazing Services</h2>
+                            <h2>Exceptional Services</h2>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.</p>
-                        <a href="#" class="btn palatin-btn mt-50">Read More</a>
+                        <p>
+                            At <strong>VillaCharlenne</strong>, we provide a range of premium services to make
+                            your stay effortless and memorable. From personalized concierge support and private
+                            chefs to spa treatments and curated local experiences, every detail is designed
+                            to enhance your luxury getaway.
+                        </p>
+                        <!-- <a href="services" class="btn palatin-btn mt-50">Learn More</a> -->
                     </div>
                 </div>
 
@@ -225,8 +230,8 @@
                         <!-- Content -->
                         <div class="feature-content">
                             <i class="icon-sunset"></i>
-                            <h3>Wellness</h3>
-                            <p>Malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus. faucibus finibus.</p>
+                            <h3>Relaxation & Wellness</h3>
+                            <p>Experience complete comfort at VillaCharlenne with wellness spaces designed to help you unwind, recharge, and enjoy peaceful moments.</p>
                         </div>
                     </div>
                 </div>
@@ -238,8 +243,8 @@
                         <!-- Content -->
                         <div class="feature-content">
                             <i class="icon-sunset"></i>
-                            <h3>Spa Center</h3>
-                            <p>Malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus. faucibus finibus.</p>
+                            <h3>Spa & Rejuvenation</h3>
+                            <p>Indulge in soothing spa treatments and relaxing therapies designed to refresh your body and mind during your stay at VillaCharlenne.</p>
                         </div>
                     </div>
                 </div>
@@ -251,8 +256,8 @@
                         <!-- Content -->
                         <div class="feature-content">
                             <i class="icon-island"></i>
-                            <h3>Lounge Bar</h3>
-                            <p>Malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus. faucibus finibus.</p>
+                            <h3>Lounge & Bar</h3>
+                            <p>Enjoy refreshing drinks, great music, and a stylish atmosphere in the VillaCharlenne lounge bar — the perfect place to relax and socialize.</p>
                         </div>
                     </div>
                 </div>
@@ -271,8 +276,8 @@
                 <div class="col-12 col-sm-6 col-lg-4">
                     <div class="single-service-area mb-100 wow fadeInUp" data-wow-delay="100ms">
                         <i class="icon-trekking"></i>
-                        <h4>Bike Rentals</h4>
-                        <p>Nulla massa dui, posuere non erat in, eleifend mattis dui. Vivamus luctus luctus rhoncus. Donec sagittis nulla id finibus iaculis. Mauris odio tortor.</p>
+                        <h4>Luxury Transport</h4>
+                        <p>Enjoy convenient and comfortable transportation services arranged by VillaCharlenne, ensuring smooth travel for sightseeing, airport pickups, and local exploration.</p>
                     </div>
                 </div>
 
@@ -280,8 +285,8 @@
                 <div class="col-12 col-sm-6 col-lg-4">
                     <div class="single-service-area mb-100 wow fadeInUp" data-wow-delay="200ms">
                         <i class="icon-boat"></i>
-                        <h4>Boat Trips</h4>
-                        <p>Nulla massa dui, posuere non erat in, eleifend mattis dui. Vivamus luctus luctus rhoncus. Donec sagittis nulla id finibus iaculis. Mauris odio tortor.</p>
+                        <h4>Private Tours</h4>
+                        <p>Discover beautiful attractions and hidden gems with curated private tours designed to give VillaCharlenne guests a memorable travel experience.</p>
                     </div>
                 </div>
 
@@ -289,8 +294,8 @@
                 <div class="col-12 col-sm-6 col-lg-4">
                     <div class="single-service-area mb-100 wow fadeInUp" data-wow-delay="300ms">
                         <i class="icon-restaurant"></i>
-                        <h4>Restaurants</h4>
-                        <p>Nulla massa dui, posuere non erat in, eleifend mattis dui. Vivamus luctus luctus rhoncus. Donec sagittis nulla id finibus iaculis. Mauris odio tortor.</p>
+                        <h4>Fine Dining</h4>
+                        <p>Experience delicious meals prepared with fresh ingredients, offering guests a taste of both local and international cuisine in a refined setting.</p>
                     </div>
                 </div>
 
@@ -298,8 +303,8 @@
                 <div class="col-12 col-sm-6 col-lg-4">
                     <div class="single-service-area mb-100 wow fadeInUp" data-wow-delay="400ms">
                         <i class="icon-beach"></i>
-                        <h4>Massages</h4>
-                        <p>Nulla massa dui, posuere non erat in, eleifend mattis dui. Vivamus luctus luctus rhoncus. Donec sagittis nulla id finibus iaculis. Mauris odio tortor.</p>
+                        <h4>Spa & Massage</h4>
+                        <p>Relax and rejuvenate with professional spa and massage services designed to help you unwind and enjoy complete comfort during your stay.</p>
                     </div>
                 </div>
 
@@ -307,8 +312,8 @@
                 <div class="col-12 col-sm-6 col-lg-4">
                     <div class="single-service-area mb-100 wow fadeInUp" data-wow-delay="500ms">
                         <i class="icon-boarding-pass"></i>
-                        <h4>Event Tikets</h4>
-                        <p>Nulla massa dui, posuere non erat in, eleifend mattis dui. Vivamus luctus luctus rhoncus. Donec sagittis nulla id finibus iaculis. Mauris odio tortor.</p>
+                        <h4>Event Reservations</h4>
+                        <p>From concerts to exclusive experiences, VillaCharlenne helps guests secure reservations and tickets to exciting events happening nearby.</p>
                     </div>
                 </div>
 
@@ -316,8 +321,8 @@
                 <div class="col-12 col-sm-6 col-lg-4">
                     <div class="single-service-area mb-100 wow fadeInUp" data-wow-delay="600ms">
                         <i class="icon-sign"></i>
-                        <h4>Hiking</h4>
-                        <p>Nulla massa dui, posuere non erat in, eleifend mattis dui. Vivamus luctus luctus rhoncus. Donec sagittis nulla id finibus iaculis. Mauris odio tortor.</p>
+                        <h4>Adventure Activities</h4>
+                        <p>Explore outdoor adventures and guided activities arranged for VillaCharlenne guests seeking excitement, nature, and unforgettable experiences.</p>
                     </div>
                 </div>
 
@@ -327,48 +332,9 @@
     <!-- ##### Services Area End ##### -->
 
     <!-- ##### Footer Area Start ##### -->
-    <footer class="footer-area">
-        <div class="container">
-            <div class="row">
-
-                <!-- Footer Widget Area -->
-                <div class="col-12 col-lg-5">
-                    <div class="footer-widget-area mt-50">
-                        <a href="#" class="d-block mb-5"><img src="img/core-img/logo.png" alt=""></a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. </p>
-                    </div>
-                </div>
-
-                <!-- Footer Widget Area -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="footer-widget-area mt-50">
-                        <h6 class="widget-title mb-5">Find us on the map</h6>
-                        <img src="img/bg-img/footer-map.png" alt="">
-                    </div>
-                </div>
-
-                <!-- Footer Widget Area -->
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="footer-widget-area mt-50">
-                        <h6 class="widget-title mb-5">Subscribe to our newsletter</h6>
-                        <form action="#" method="post" class="subscribe-form">
-                            <input type="email" name="subscribe-email" id="subscribeemail" placeholder="Your E-mail">
-                            <button type="submit">Subscribe</button>
-                        </form>
-                    </div>
-                </div>
-
-                <!-- Copywrite Text -->
-                <div class="col-12">
-                    <div class="copywrite-text mt-30">
-                        <p><a href="#"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <?php
+    include("inc/footer.php");
+    ?>
     <!-- ##### Footer Area End ##### -->
 
     <!-- ##### All Javascript Script ##### -->
