@@ -37,7 +37,7 @@
                     <nav class="classy-navbar justify-content-between" id="palatinNav">
 
                         <!-- Nav brand -->
-                        <a href="index.html" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
+                        <a href="index" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
@@ -169,145 +169,45 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row justify-content-center">
 
-                <!-- Single Rooms Area -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-rooms-area wow fadeInUp" data-wow-delay="100ms">
-                        <div class="bg-thumbnail bg-img" style="background-image: url(img/bg-img/1.jpg);"></div>
-                        <p class="price-from">From $150/night</p>
-                        <div class="rooms-text">
-                            <div class="line"></div>
-                            <h4>Deluxe Room</h4>
-                            <p>A stylish and spacious room designed with comfort in mind, perfect for guests seeking a relaxing and luxurious stay.</p>
+                <?php
+                include("connection/connect.php");
+
+                $query = "SELECT * FROM suites ORDER BY id DESC";
+                $result = mysqli_query($db, $query);
+
+                while ($row = mysqli_fetch_assoc($result)) {
+                ?>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+
+                        <div class="single-rooms-area wow fadeInUp">
+
+                            <div class="bg-thumbnail bg-img"
+                                style="background-image:url(./cooladmin/uploads/<?php echo $row['image1']; ?>);"></div>
+
+                            <p class="price-from">
+                                From $<?php echo $row['shared_price']; ?> / night
+                            </p>
+
+                            <div class="rooms-text">
+                                <div class="line"></div>
+
+                                <h4><?php echo $row['name']; ?></h4>
+
+                                <p><?php echo substr($row['description'], 0, 120); ?>...</p>
+                            </div>
+
+                            <a href="suite-details.php?id=<?php echo $row['id']; ?>" class="book-room-btn btn palatin-btn text-light">
+                                View Details
+                            </a>
+
                         </div>
-                        <a href="#" class="book-room-btn btn palatin-btn">Book Room</a>
-                    </div>
-                </div>
 
-                <!-- Single Rooms Area -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-rooms-area wow fadeInUp" data-wow-delay="200ms">
-                        <div class="bg-thumbnail bg-img" style="background-image: url(img/bg-img/8.jpg);"></div>
-                        <p class="price-from">From $150/night</p>
-                        <div class="rooms-text">
-                            <div class="line"></div>
-                            <h4>Double Suite</h4>
-                            <p>Perfect for couples or friends, this elegant suite offers extra space, comfort, and a welcoming atmosphere.</p>
-                        </div>
-                        <a href="#" class="book-room-btn btn palatin-btn">Book Room</a>
                     </div>
-                </div>
 
-                <!-- Single Rooms Area -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-rooms-area wow fadeInUp" data-wow-delay="300ms">
-                        <div class="bg-thumbnail bg-img" style="background-image: url(img/bg-img/9.jpg);"></div>
-                        <p class="price-from">From $100/night</p>
-                        <div class="rooms-text">
-                            <div class="line"></div>
-                            <h4>Single Room</h4>
-                            <p>A comfortable and cozy space designed for solo travelers seeking privacy and relaxation.</p>
-                        </div>
-                        <a href="#" class="book-room-btn btn palatin-btn">Book Room</a>
-                    </div>
-                </div>
-
-                <!-- Single Rooms Area -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-rooms-area wow fadeInUp" data-wow-delay="100ms">
-                        <div class="bg-thumbnail bg-img" style="background-image: url(img/bg-img/15.jpg);"></div>
-                        <p class="price-from">From $150/night</p>
-                        <div class="rooms-text">
-                            <div class="line"></div>
-                            <h4>Premium Deluxe Room</h4>
-                            <p>Enjoy upgraded comfort with stylish interiors and relaxing ambiance at VillaCharlenne.</p>
-                        </div>
-                        <a href="#" class="book-room-btn btn palatin-btn">Book Room</a>
-                    </div>
-                </div>
-
-                <!-- Single Rooms Area -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-rooms-area wow fadeInUp" data-wow-delay="200ms">
-                        <div class="bg-thumbnail bg-img" style="background-image: url(img/bg-img/16.jpg);"></div>
-                        <p class="price-from">From $150/night</p>
-                        <div class="rooms-text">
-                            <div class="line"></div>
-                            <h4>Executive Suite</h4>
-                            <p>Designed for guests who appreciate space and elegance, offering premium comfort and a refined atmosphere.</p>
-                        </div>
-                        <a href="#" class="book-room-btn btn palatin-btn">Book Room</a>
-                    </div>
-                </div>
-
-                <!-- Single Rooms Area -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-rooms-area wow fadeInUp" data-wow-delay="300ms">
-                        <div class="bg-thumbnail bg-img" style="background-image: url(img/bg-img/17.jpg);"></div>
-                        <p class="price-from">From $100/night</p>
-                        <div class="rooms-text">
-                            <div class="line"></div>
-                            <h4>Comfort Room</h4>
-                            <p>A well-designed room offering all the essentials for a peaceful and comfortable stay.</p>
-                        </div>
-                        <a href="#" class="book-room-btn btn palatin-btn">Book Room</a>
-                    </div>
-                </div>
-
-                <!-- Single Rooms Area -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-rooms-area wow fadeInUp" data-wow-delay="100ms">
-                        <div class="bg-thumbnail bg-img" style="background-image: url(img/bg-img/18.jpg);"></div>
-                        <p class="price-from">From $150/night</p>
-                        <div class="rooms-text">
-                            <div class="line"></div>
-                            <h4>Luxury Deluxe Room</h4>
-                            <p>Experience elevated comfort with stylish decor and a relaxing environment.</p>
-                        </div>
-                        <a href="#" class="book-room-btn btn palatin-btn">Book Room</a>
-                    </div>
-                </div>
-
-                <!-- Single Rooms Area -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-rooms-area wow fadeInUp" data-wow-delay="200ms">
-                        <div class="bg-thumbnail bg-img" style="background-image: url(img/bg-img/19.jpg);"></div>
-                        <p class="price-from">From $150/night</p>
-                        <div class="rooms-text">
-                            <div class="line"></div>
-                            <h4>Family Suite</h4>
-                            <p>Spacious and comfortable, ideal for families or groups looking to enjoy VillaCharlenne together.</p>
-                        </div>
-                        <a href="#" class="book-room-btn btn palatin-btn">Book Room</a>
-                    </div>
-                </div>
-
-                <!-- Single Rooms Area -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-rooms-area wow fadeInUp" data-wow-delay="300ms">
-                        <div class="bg-thumbnail bg-img" style="background-image: url(img/bg-img/20.jpg);"></div>
-                        <p class="price-from">From $100/night</p>
-                        <div class="rooms-text">
-                            <div class="line"></div>
-                            <h4>Standard Room</h4>
-                            <p>A cozy and affordable room offering comfort and convenience for a pleasant stay.</p>
-                        </div>
-                        <a href="#" class="book-room-btn btn palatin-btn">Book Room</a>
-                    </div>
-                </div>
-
-                <div class="col-12">
-                    <div class="pagination-area wow fadeInUp" data-wow-delay="400ms">
-                        <nav>
-                            <ul class="pagination">
-                                <li class="page-item active"><a class="page-link" href="#">01.</a></li>
-                                <li class="page-item"><a class="page-link" href="#">02.</a></li>
-                                <li class="page-item"><a class="page-link" href="#">03.</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
+                <?php } ?>
 
             </div>
         </div>

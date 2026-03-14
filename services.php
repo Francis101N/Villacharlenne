@@ -37,7 +37,7 @@
                     <nav class="classy-navbar justify-content-between" id="palatinNav">
 
                         <!-- Nav brand -->
-                        <a href="index.html" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
+                        <a href="index" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
@@ -55,7 +55,7 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li class=""><a href="index.html">Home</a></li>
+                                    <li class=""><a href="index">Home</a></li>
                                     <li><a href="/VillaCharlenne/about-us">About Us</a></li>
                                     <li style="background-color: blue;"><a href="services.php" class='text-light'>Services</a></li>
                                     <li><a href="rooms">Rooms</a></li>

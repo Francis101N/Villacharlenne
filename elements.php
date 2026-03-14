@@ -37,7 +37,7 @@
                     <nav class="classy-navbar justify-content-between" id="palatinNav">
 
                         <!-- Nav brand -->
-                        <a href="index.html" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
+                        <a href="index" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
@@ -55,11 +55,11 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li class="active"><a href="index.html">Home</a></li>
+                                    <li class="active"><a href="index">Home</a></li>
                                     <li><a href="about-us.html">About Us</a></li>
                                     <li><a href="#">Pages</a>
                                         <ul class="dropdown">
-                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="index">Home</a></li>
                                             <li><a href="about-us.html">About Us</a></li>
                                             <li><a href="services.html">Services</a></li>
                                             <li><a href="rooms.html">Rooms</a></li>
@@ -71,7 +71,7 @@
                                     <li><a href="#">Mega Menu</a>
                                         <div class="megamenu">
                                             <ul class="single-mega cn-col-4">
-                                                <li><a href="index.html">Home</a></li>
+                                                <li><a href="index">Home</a></li>
                                                 <li><a href="about-us.html">About Us</a></li>
                                                 <li><a href="services.html">Services</a></li>
                                                 <li><a href="rooms.html">Rooms</a></li>
@@ -80,7 +80,7 @@
                                                 <li><a href="elements.html">Elements</a></li>
                                             </ul>
                                             <ul class="single-mega cn-col-4">
-                                                <li><a href="index.html">Home</a></li>
+                                                <li><a href="index">Home</a></li>
                                                 <li><a href="about-us.html">About Us</a></li>
                                                 <li><a href="services.html">Services</a></li>
                                                 <li><a href="rooms.html">Rooms</a></li>
@@ -89,7 +89,7 @@
                                                 <li><a href="elements.html">Elements</a></li>
                                             </ul>
                                             <ul class="single-mega cn-col-4">
-                                                <li><a href="index.html">Home</a></li>
+                                                <li><a href="index">Home</a></li>
                                                 <li><a href="about-us.html">About Us</a></li>
                                                 <li><a href="services.html">Services</a></li>
                                                 <li><a href="rooms.html">Rooms</a></li>
@@ -98,7 +98,7 @@
                                                 <li><a href="elements.html">Elements</a></li>
                                             </ul>
                                             <ul class="single-mega cn-col-4">
-                                                <li><a href="index.html">Home</a></li>
+                                                <li><a href="index">Home</a></li>
                                                 <li><a href="about-us.html">About Us</a></li>
                                                 <li><a href="services.html">Services</a></li>
                                                 <li><a href="rooms.html">Rooms</a></li>

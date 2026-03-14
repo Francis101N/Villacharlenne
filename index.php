@@ -19,9 +19,9 @@
 
 </head>
 <style>
-    /* .nav-brand img {
-        height: 100px;
-    } */
+    .nav-brand img {
+        height: 80px;
+    }
 </style>
 
 <body>
@@ -292,68 +292,46 @@
                 </div>
             </div>
 
+
             <div class="row justify-content-center">
 
-                <!-- Property -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-rooms-area wow fadeInUp" data-wow-delay="100ms">
-                        <div class="bg-thumbnail bg-img" style="background-image: url(img/bg-img/1.jpg);"></div>
+                <?php
+                include("connection/connect.php");
 
-                        <p class="price-from">From $150 / night</p>
+                $query = "SELECT * FROM suites ORDER BY id DESC LIMIT 3";
+                $result = mysqli_query($db, $query);
 
-                        <div class="rooms-text">
-                            <div class="line"></div>
-                            <h4>Luxury Deluxe Suite</h4>
-                            <p>
-                                Enjoy a spacious and elegantly designed suite featuring modern
-                                amenities, comfortable bedding, and beautiful surroundings for a
-                                truly relaxing stay.
+                while ($row = mysqli_fetch_assoc($result)) {
+                ?>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+
+                        <div class="single-rooms-area wow fadeInUp">
+
+                            <div class="bg-thumbnail bg-img"
+                                style="background-image:url(./cooladmin/uploads/<?php echo $row['image1']; ?>);"></div>
+
+                            <p class="price-from">
+                                From $<?php echo $row['shared_price']; ?> / night
                             </p>
+
+                            <div class="rooms-text">
+                                <div class="line"></div>
+
+                                <h4><?php echo $row['name']; ?></h4>
+
+                                <p><?php echo substr($row['description'], 0, 120); ?>...</p>
+                            </div>
+
+                            <a href="suite-details.php?id=<?php echo $row['id']; ?>" class="book-room-btn btn palatin-btn text-light">
+                                View Details
+                            </a>
+
                         </div>
 
-                        <a href="#" class="book-room-btn btn palatin-btn text-light">View Details</a>
                     </div>
-                </div>
 
-                <!-- Property -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-rooms-area wow fadeInUp" data-wow-delay="300ms">
-                        <div class="bg-thumbnail bg-img" style="background-image: url(img/bg-img/8.jpg);"></div>
-
-                        <p class="price-from">From $180 / night</p>
-
-                        <div class="rooms-text">
-                            <div class="line"></div>
-                            <h4>Executive Double Suite</h4>
-                            <p>
-                                Perfect for couples or small families, this suite offers generous
-                                space, stylish interiors, and a relaxing atmosphere for a memorable stay.
-                            </p>
-                        </div>
-
-                        <a href="#" class="book-room-btn btn palatin-btn text-light">View Details</a>
-                    </div>
-                </div>
-
-                <!-- Property -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-rooms-area wow fadeInUp" data-wow-delay="500ms">
-                        <div class="bg-thumbnail bg-img" style="background-image: url(img/bg-img/9.jpg);"></div>
-
-                        <p class="price-from">From $100 / night</p>
-
-                        <div class="rooms-text">
-                            <div class="line"></div>
-                            <h4>Cozy Single Room</h4>
-                            <p>
-                                A comfortable and affordable option for solo travelers looking
-                                for a peaceful space with essential amenities and modern comfort.
-                            </p>
-                        </div>
-
-                        <a href="#" class="book-room-btn btn palatin-btn text-light">View Details</a>
-                    </div>
-                </div>
+                <?php } ?>
 
             </div>
         </div>
