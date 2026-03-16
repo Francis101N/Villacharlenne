@@ -72,8 +72,8 @@
                             <!-- Slide Content -->
                             <div class="hero-slides-content" data-animation="fadeInUp" data-delay="100ms">
                                 <div class="line" data-animation="fadeInUp" data-delay="300ms"></div>
-                                <h2 data-animation="fadeInUp" data-delay="500ms">A place to remember</h2>
-                                <p data-animation="fadeInUp" data-delay="700ms">
+                                <h2 data-animation="fadeInUp" data-delay="500ms" class="text-dark">A place to remember</h2>
+                                <p data-animation="fadeInUp" data-delay="700ms" class="text-dark">
                                     Find unique accommodations tailored to every traveler. From luxury villas to cozy apartments, experience stays that turn every trip into a lasting memory.</p>
                                 <a href="about-us" class="btn palatin-btn mt-50 text-light" data-animation="fadeInUp" data-delay="900ms">Read More</a>
                             </div>
@@ -105,76 +105,6 @@
         </div>
     </section>
     <!-- ##### Hero Area End ##### -->
-
-    <!-- ##### Book Now Area Start ##### -->
-    <div class="book-now-area">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-lg-10">
-                    <div class="book-now-form">
-                        <form action="#">
-                            <!-- Form Group -->
-                            <div class="form-group">
-                                <label for="select1">Check In</label>
-                                <select class="form-control" id="select1">
-                                    <option>19 June</option>
-                                    <option>20 June</option>
-                                    <option>21 June</option>
-                                    <option>22 June</option>
-                                    <option>23 June</option>
-                                    <option>24 June</option>
-                                    <option>25 June</option>
-                                </select>
-                            </div>
-
-                            <!-- Form Group -->
-                            <div class="form-group">
-                                <label for="select2">Check Out</label>
-                                <select class="form-control" id="select2">
-                                    <option>20 June</option>
-                                    <option>21 June</option>
-                                    <option>22 June</option>
-                                    <option>23 June</option>
-                                    <option>24 June</option>
-                                    <option>25 June</option>
-                                    <option>26 June</option>
-                                    <option>27 June</option>
-                                </select>
-                            </div>
-
-                            <!-- Form Group -->
-                            <div class="form-group">
-                                <label for="select3">Adults</label>
-                                <select class="form-control" id="select3">
-                                    <option>02</option>
-                                    <option>03</option>
-                                    <option>04</option>
-                                    <option>05</option>
-                                    <option>06</option>
-                                </select>
-                            </div>
-
-                            <!-- Form Group -->
-                            <div class="form-group">
-                                <label for="select4">Childrens</label>
-                                <select class="form-control" id="select4">
-                                    <option>01</option>
-                                    <option>02</option>
-                                    <option>03</option>
-                                    <option>04</option>
-                                    <option>05</option>
-                                </select>
-                            </div>
-
-                            <!-- Button -->
-                            <button type="submit">Book Now</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ##### Book Now Area End ##### -->
 
     <!-- ##### About Us Area Start ##### -->
     <section class="about-us-area">
@@ -302,6 +232,9 @@
                 $result = mysqli_query($db, $query);
 
                 while ($row = mysqli_fetch_assoc($result)) {
+
+                    // Encode the ID using base64
+                    $encoded_id = base64_encode($row['id']);
                 ?>
 
                     <div class="col-12 col-md-6 col-lg-4">
@@ -323,7 +256,7 @@
                                 <p><?php echo substr($row['description'], 0, 120); ?>...</p>
                             </div>
 
-                            <a href="suite-details.php?id=<?php echo $row['id']; ?>" class="book-room-btn btn palatin-btn text-light">
+                            <a href="suite-details.php?id=<?php echo $encoded_id; ?>" class="book-room-btn btn palatin-btn text-light">
                                 View Details
                             </a>
 
@@ -332,6 +265,7 @@
                     </div>
 
                 <?php } ?>
+                <a href="rooms" class="btn btn-success">VIEW MORE</a>
 
             </div>
         </div>
@@ -410,11 +344,7 @@
 
         <!-- Map -->
         <div class="home-map-area wow fadeInLeft" data-wow-delay="100ms">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.257218738205!2d3.424395614332403!3d6.437712824269739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf9b8d9f12345%3A0xabcdef1234567890!2sLekki%2C%20Lagos%2C%20Nigeria!5e0!3m2!1sen!2sng!4v1580000000000"
-                allowfullscreen=""
-                loading="lazy">
-            </iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.8470611751027!2d7.617370176277186!3d43.796786471095686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cdf27afdcd23a3%3A0xd1aae04a9b25b398!2sVia%20Maure%2C%2014%2C%2018033%20Camporosso%20IM%2C%20Italy!5e0!3m2!1sen!2sng!4v1773673403567!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
         <!-- Contact Info -->
@@ -429,9 +359,9 @@
             </div>
 
             <!-- Address & Contact -->
-            <h4 class="mt-4">Lekki, Lagos, Nigeria</h4>
-            <h5>+234 800 123 4567</h5>
-            <h5>info@techbyfrancis.com</h5>
+            <h4 class="mt-4">Via Maure, 14 18033 Camporosso, Imperia .</h4>
+            <h5>+39 388 159 5498</h5>
+            <h5>info@villacharlenne.com</h5>
 
             <!-- Social Links -->
             <div class="social-info mt-4">

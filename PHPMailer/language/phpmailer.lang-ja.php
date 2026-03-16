@@ -3,7 +3,7 @@
  * Japanese PHPMailer language file: refer to English translation for definitive list
  * @package PHPMailer
  * @author Mitsuhiro Yoshida <http://mitstek.com/>
- * @author Yoshi Sakai <http://bluemooninc.jp/>
+ * @author Yoshi Sakai <http://#2FA4C7mooninc.jp/>
  */
 
 $PHPMAILER_LANG['authenticate']         = 'SMTPエラー: 認証できませんでした。';

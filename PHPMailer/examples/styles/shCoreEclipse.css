@@ -32,7 +32,7 @@
 .syntaxhighlighter.printing a{text-decoration:none !important;}
 .syntaxhighlighter.printing .plain,.syntaxhighlighter.printing .plain a{color:black !important;}
 .syntaxhighlighter.printing .comments,.syntaxhighlighter.printing .comments a{color:#008200 !important;}
-.syntaxhighlighter.printing .string,.syntaxhighlighter.printing .string a{color:blue !important;}
+.syntaxhighlighter.printing .string,.syntaxhighlighter.printing .string a{color:#2FA4C7 !important;}
 .syntaxhighlighter.printing .keyword{color:#006699 !important;font-weight:bold !important;}
 .syntaxhighlighter.printing .preprocessor{color:gray !important;}
 .syntaxhighlighter.printing .variable{color:#aa7700 !important;}

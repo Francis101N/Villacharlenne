@@ -55,17 +55,17 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li class=""><a href="index">Home</a></li>
+                                    <li class=""><a href="home">Home</a></li>
                                     <li><a href="/VillaCharlenne/about-us">About Us</a></li>
                                     <li><a href="services" class='text-dark'>Services</a></li>
                                     <li><a href="rooms">Rooms</a></li>
                                     <li><a href="news">News</a></li>
-                                    <!-- <li style="background-color: blue;"><a href="contact" class='text-light'>Contact</a></li> -->
+                                    <!-- <li style="background-color: #2FA4C7;"><a href="contact" class='text-light'>Contact</a></li> -->
                                 </ul>
 
                                 <!-- Button -->
                                 <div class="menu-btn">
-                                    <a href="contact" class="btn p-3" style="background-color:blue;">Make a Reservation</a>
+                                    <a href="contact" class="btn p-3" style="background-color:#2FA4C7;">Make a Reservation</a>
                                 </div>
 
                             </div>
@@ -84,77 +84,8 @@
             <h2>Contact</h2>
         </div>
     </section>
+    <br><br>
     <!-- ##### Breadcumb Area End ##### -->
-
-    <!-- ##### Book Now Area Start ##### -->
-    <div class="book-now-area">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-lg-10">
-                    <div class="book-now-form">
-                        <form action="#">
-                            <!-- Form Group -->
-                            <div class="form-group">
-                                <label for="select1">Check In</label>
-                                <select class="form-control" id="select1">
-                                    <option>19 June</option>
-                                    <option>20 June</option>
-                                    <option>21 June</option>
-                                    <option>22 June</option>
-                                    <option>23 June</option>
-                                    <option>24 June</option>
-                                    <option>25 June</option>
-                                </select>
-                            </div>
-
-                            <!-- Form Group -->
-                            <div class="form-group">
-                                <label for="select2">Check Out</label>
-                                <select class="form-control" id="select2">
-                                    <option>20 June</option>
-                                    <option>21 June</option>
-                                    <option>22 June</option>
-                                    <option>23 June</option>
-                                    <option>24 June</option>
-                                    <option>25 June</option>
-                                    <option>26 June</option>
-                                    <option>27 June</option>
-                                </select>
-                            </div>
-
-                            <!-- Form Group -->
-                            <div class="form-group">
-                                <label for="select3">Adults</label>
-                                <select class="form-control" id="select3">
-                                    <option>02</option>
-                                    <option>03</option>
-                                    <option>04</option>
-                                    <option>05</option>
-                                    <option>06</option>
-                                </select>
-                            </div>
-
-                            <!-- Form Group -->
-                            <div class="form-group">
-                                <label for="select4">Childrens</label>
-                                <select class="form-control" id="select4">
-                                    <option>01</option>
-                                    <option>02</option>
-                                    <option>03</option>
-                                    <option>04</option>
-                                    <option>05</option>
-                                </select>
-                            </div>
-
-                            <!-- Button -->
-                            <button type="submit">Book Now</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ##### Book Now Area End ##### -->
 
     <!-- ##### Contact Area Start ##### -->
     <section class="contact-information-area">
@@ -286,7 +217,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22236.40558254599!2d-118.25292394686001!3d34.057682914027104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2z4Kay4Ka4IOCmj-CmnuCnjeCmnOCnh-CmsuCnh-CmuCwg4KaV4KeN4Kav4Ka-4Kay4Ka_4Kar4KeL4Kaw4KeN4Kao4Ka_4Kav4Ka84Ka-LCDgpq7gpr7gprDgp43gppXgpr_gpqgg4Kav4KeB4KaV4KeN4Kak4Kaw4Ka-4Ka34KeN4Kaf4KeN4Kaw!5e0!3m2!1sbn!2sbd!4v1532328708137" allowfullscreen></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.8470611751027!2d7.617370176277186!3d43.796786471095686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cdf27afdcd23a3%3A0xd1aae04a9b25b398!2sVia%20Maure%2C%2014%2C%2018033%20Camporosso%20IM%2C%20Italy!5e0!3m2!1sen!2sng!4v1773673403567!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>

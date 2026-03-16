@@ -55,8 +55,8 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li class=""><a href="index" class="text-dark">Home</a></li>
-                                    <li style="background-color: blue;"><a href="/VillaCharlenne/about-us" class='text-light'>About Us</a></li>
+                                    <li class=""><a href="home" class="text-dark">Home</a></li>
+                                    <li style="background-color: #2FA4C7;"><a href="/VillaCharlenne/about-us" class='text-light'>About Us</a></li>
                                     <li><a href="services">Services</a></li>
                                     <li><a href="rooms">Rooms</a></li>
                                     <li><a href="news">News</a></li>
@@ -65,7 +65,7 @@
 
                                 <!-- Button -->
                                 <div class="menu-btn">
-                                    <a href="contact" class="btn p-3" style="background-color:blue;">Make a Reservation</a>
+                                    <a href="contact" class="btn p-3" style="background-color:#2FA4C7;">Make a Reservation</a>
                                 </div>
 
                             </div>
@@ -85,76 +85,6 @@
         </div>
     </section>
     <!-- ##### Breadcumb Area End ##### -->
-
-    <!-- ##### Book Now Area Start ##### -->
-    <div class="book-now-area">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-lg-10">
-                    <div class="book-now-form">
-                        <form action="#">
-                            <!-- Form Group -->
-                            <div class="form-group">
-                                <label for="select1">Check In</label>
-                                <select class="form-control" id="select1">
-                                    <option>19 June</option>
-                                    <option>20 June</option>
-                                    <option>21 June</option>
-                                    <option>22 June</option>
-                                    <option>23 June</option>
-                                    <option>24 June</option>
-                                    <option>25 June</option>
-                                </select>
-                            </div>
-
-                            <!-- Form Group -->
-                            <div class="form-group">
-                                <label for="select2">Check Out</label>
-                                <select class="form-control" id="select2">
-                                    <option>20 June</option>
-                                    <option>21 June</option>
-                                    <option>22 June</option>
-                                    <option>23 June</option>
-                                    <option>24 June</option>
-                                    <option>25 June</option>
-                                    <option>26 June</option>
-                                    <option>27 June</option>
-                                </select>
-                            </div>
-
-                            <!-- Form Group -->
-                            <div class="form-group">
-                                <label for="select3">Adults</label>
-                                <select class="form-control" id="select3">
-                                    <option>02</option>
-                                    <option>03</option>
-                                    <option>04</option>
-                                    <option>05</option>
-                                    <option>06</option>
-                                </select>
-                            </div>
-
-                            <!-- Form Group -->
-                            <div class="form-group">
-                                <label for="select4">Childrens</label>
-                                <select class="form-control" id="select4">
-                                    <option>01</option>
-                                    <option>02</option>
-                                    <option>03</option>
-                                    <option>04</option>
-                                    <option>05</option>
-                                </select>
-                            </div>
-
-                            <!-- Button -->
-                            <button type="submit">Book Now</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ##### Book Now Area End ##### -->
 
     <!-- ##### About Us Area Start ##### -->
     <section class="about-us-area">
@@ -328,7 +258,7 @@
                                     and had every amenity we needed. The private pool and breathtaking sea view made
                                     our vacation unforgettable. Highly recommended for families and couples alike.”
                                 </p>
-                                <h6>Emily Johnson, <span style='color:blue;'>Traveler</span></h6>
+                                <h6>Emily Johnson, <span style='color:#2FA4C7;'>Traveler</span></h6>
                                 <img src="img/core-img/trip.png" alt="Guest Image">
                             </div>
 
@@ -339,7 +269,7 @@
                                     the staff was attentive, and the villa’s design is stunning. We felt completely
                                     at home while enjoying a luxurious experience. Will definitely return!”
                                 </p>
-                                <h6>David Lee, <span style='color:blue;'>Guest</span></h6>
+                                <h6>David Lee, <span style='color:#2FA4C7;'>Guest</span></h6>
                                 <img src="img/core-img/trip.png" alt="Guest Image">
                             </div>
 

@@ -84,7 +84,7 @@
             <h2>News</h2>
         </div>
     </section>
-    <br><br>
+    <br><br><br>
     <!-- ##### Breadcumb Area End ##### -->
 
     <!-- ##### Blog Area Start ##### -->
@@ -139,11 +139,6 @@
                     </div>
                 </div>
 
-                <div class="col-12">
-                    <div class="load-more-btn text-center wow fadeInUp" data-wow-delay="700ms">
-                        <a href="more-news" class="btn palatin-btn">View More</a>
-                    </div>
-                </div>
             </div>
 
         </div>
