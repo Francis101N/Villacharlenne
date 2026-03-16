@@ -1315,19 +1315,19 @@
 .zmdi-star:before {
   content: '\f27d';
 }
-.zmdi-bluetooth-connected:before {
+.zmdi-#2FA4C7tooth-connected:before {
   content: '\f27e';
 }
-.zmdi-bluetooth-off:before {
+.zmdi-#2FA4C7tooth-off:before {
   content: '\f27f';
 }
-.zmdi-bluetooth-search:before {
+.zmdi-#2FA4C7tooth-search:before {
   content: '\f280';
 }
-.zmdi-bluetooth-setting:before {
+.zmdi-#2FA4C7tooth-setting:before {
   content: '\f281';
 }
-.zmdi-bluetooth:before {
+.zmdi-#2FA4C7tooth:before {
   content: '\f282';
 }
 .zmdi-camera-add:before {
@@ -1474,7 +1474,7 @@
 .zmdi-network:before {
   content: '\f2b2';
 }
-.zmdi-phone-bluetooth:before {
+.zmdi-phone-#2FA4C7tooth:before {
   content: '\f2b3';
 }
 .zmdi-phone-end:before {
@@ -3646,19 +3646,19 @@
 .zmdi-star:before {
   content: '\f27d';
 }
-.zmdi-bluetooth-connected:before {
+.zmdi-#2FA4C7tooth-connected:before {
   content: '\f27e';
 }
-.zmdi-bluetooth-off:before {
+.zmdi-#2FA4C7tooth-off:before {
   content: '\f27f';
 }
-.zmdi-bluetooth-search:before {
+.zmdi-#2FA4C7tooth-search:before {
   content: '\f280';
 }
-.zmdi-bluetooth-setting:before {
+.zmdi-#2FA4C7tooth-setting:before {
   content: '\f281';
 }
-.zmdi-bluetooth:before {
+.zmdi-#2FA4C7tooth:before {
   content: '\f282';
 }
 .zmdi-camera-add:before {
@@ -3805,7 +3805,7 @@
 .zmdi-network:before {
   content: '\f2b2';
 }
-.zmdi-phone-bluetooth:before {
+.zmdi-phone-#2FA4C7tooth:before {
   content: '\f2b3';
 }
 .zmdi-phone-end:before {

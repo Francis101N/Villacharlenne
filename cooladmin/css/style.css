@@ -53,7 +53,7 @@ File: scss
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --blue: #2962FF;
+  --#2FA4C7: #2962FF;
   --indigo: #6610f2;
   --purple: #7460ee;
   --pink: #e83e8c;
@@ -66,7 +66,7 @@ File: scss
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --blue: #2962FF;
+  --#2FA4C7: #2962FF;
   --indigo: #6610f2;
   --purple: #7460ee;
   --pink: #e83e8c;

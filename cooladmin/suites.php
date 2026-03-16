@@ -167,7 +167,7 @@ $num = mysqli_num_rows($result);
                                 <li><a href="#" class="fw-normal"></a></li>
                             </ol>
 
-                            <a href="add_suites" class="btn" style="background-color: blue; color: white;">ADD SUITE</a>
+                            <a href="add_suites" class="btn" style="background-color: #2FA4C7; color: white;">ADD SUITE</a>
 
 
                             <br>
@@ -216,6 +216,9 @@ $num = mysqli_num_rows($result);
                                             <th>Suite Image1</th>
                                             <th>Suite Image2</th>
                                             <th>Suite Image3</th>
+                                            <th>Suite Image4</th>
+                                            <th>Suite Image5</th>
+                                            <th>Suite Image6</th>
                                             <th>Max Occupancy</th>
                                             <th>Total Rooms</th>
                                             <th>Available Rooms</th>
@@ -259,6 +262,30 @@ $num = mysqli_num_rows($result);
                                                 <td>
                                                     <?php if (!empty($row['image3'])): ?>
                                                         <img src="uploads/<?php echo $row['image3']; ?>" alt="Suite Image"
+                                                            style="width:150px;height:100px;object-fit:cover;">
+                                                    <?php else: ?>
+                                                        <span class="text-muted">No image</span>
+                                                    <?php endif; ?>
+                                                </td>
+                                                <td>
+                                                    <?php if (!empty($row['image4'])): ?>
+                                                        <img src="uploads/<?php echo $row['image4']; ?>" alt="Suite Image"
+                                                            style="width:150px;height:100px;object-fit:cover;">
+                                                    <?php else: ?>
+                                                        <span class="text-muted">No image</span>
+                                                    <?php endif; ?>
+                                                </td>
+                                                <td>
+                                                    <?php if (!empty($row['image5'])): ?>
+                                                        <img src="uploads/<?php echo $row['image5']; ?>" alt="Suite Image"
+                                                            style="width:150px;height:100px;object-fit:cover;">
+                                                    <?php else: ?>
+                                                        <span class="text-muted">No image</span>
+                                                    <?php endif; ?>
+                                                </td>
+                                                <td>
+                                                    <?php if (!empty($row['image6'])): ?>
+                                                        <img src="uploads/<?php echo $row['image6']; ?>" alt="Suite Image"
                                                             style="width:150px;height:100px;object-fit:cover;">
                                                     <?php else: ?>
                                                         <span class="text-muted">No image</span>

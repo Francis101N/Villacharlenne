@@ -21,6 +21,12 @@ $bookingsQuery = mysqli_query($db, "SELECT COUNT(*) AS total FROM bookings");
 if ($bookingsRow = mysqli_fetch_assoc($bookingsQuery)) {
     $bookingsCount = $bookingsRow['total'];
 }
+// Count News
+$newsCount = 0;
+$newsQuery = mysqli_query($db, "SELECT COUNT(*) AS total FROM news");
+if ($newsRow = mysqli_fetch_assoc($newsQuery)) {
+    $newsCount = $newsRow['total'];
+}
 ?>
 
 <!DOCTYPE html>
@@ -177,7 +183,7 @@ if ($bookingsRow = mysqli_fetch_assoc($bookingsQuery)) {
 
                                 <!-- Left: Icon + Text -->
                                 <div class="d-flex align-items-center gap-3">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="blue"
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#2FA4C7"
                                         viewBox="0 0 24 24">
                                         <path
                                             d="M21 10V7a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v3H0v9h2v-3h20v3h2v-9h-2zM5 7h14v3H5V7zm0 5h14v2H5v-2z" />
@@ -207,7 +213,7 @@ if ($bookingsRow = mysqli_fetch_assoc($bookingsQuery)) {
 
                                 <!-- Left: Icon + Text -->
                                 <div class="d-flex align-items-center gap-3">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="blue"
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#2FA4C7"
                                         viewBox="0 0 24 24">
                                         <path
                                             d="M19 4h-1V2h-2v2H8V2H6v2H5a2 2 0 0 0-2 2v16h18V6a2 2 0 0 0-2-2zM5 20V9h14v11H5z" />
@@ -224,6 +230,36 @@ if ($bookingsRow = mysqli_fetch_assoc($bookingsQuery)) {
                                 <div class="text-end">
                                     <h2 class="mb-0 fw-bold text-success">
                                         <?php echo $bookingsCount; ?>
+                                    </h2>
+                                    <small class="text-muted">Total</small>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-12 mb-4">
+                        <a href="#" class="text-decoration-none">
+                            <div class="white-box analytics-info d-flex align-items-center justify-content-between">
+
+                                <!-- Left: Icon + Text -->
+                                <div class="d-flex align-items-center gap-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#2FA4C7"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M19 4h-1V2h-2v2H8V2H6v2H5a2 2 0 0 0-2 2v16h18V6a2 2 0 0 0-2-2zM5 20V9h14v11H5z" />
+                                        <path d="M7 11h5v5H7z" />
+                                    </svg>
+
+                                    <div>
+                                        <h3 class="box-title text-dark mb-0">News</h3>
+                                        <small class="text-muted">News received</small>
+                                    </div>
+                                </div>
+
+                                <!-- Right: Number -->
+                                <div class="text-end">
+                                    <h2 class="mb-0 fw-bold text-success">
+                                        <?php echo $newsCount; ?>
                                     </h2>
                                     <small class="text-muted">Total</small>
                                 </div>

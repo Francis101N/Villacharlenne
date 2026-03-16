@@ -88,7 +88,7 @@ session_start();
       height: 48px;
       border: none;
       border-radius: 6px;
-      background: blue;
+      background: #2FA4C7;
       color: #fff;
       font-weight: 600;
       transition: 0.3s;

@@ -204,7 +204,7 @@ if (!isset($_SESSION['admin_user'])) {
 
                                         <div class="form-group mb-4">
                                             <div class="col-sm-12">
-                                                <button name="change" type="submit" class="btn text-light" style="background-color: blue;">Change
+                                                <button name="change" type="submit" class="btn text-light" style="background-color: #2FA4C7;">Change
                                                     Password</button>
                                             </div>
                                         </div>

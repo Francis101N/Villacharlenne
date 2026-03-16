@@ -31,7 +31,7 @@ $grays: (
 ) !default;
 // fusv-enable
 
-$blue:    #0d6efd !default;
+$#2FA4C7:    #0d6efd !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #d63384 !default;
@@ -44,7 +44,7 @@ $cyan:    #0dcaf0 !default;
 
 // scss-docs-start colors-map
 $colors: (
-  "blue":       $blue,
+  "#2FA4C7":       $#2FA4C7,
   "indigo":     $indigo,
   "purple":     $purple,
   "pink":       $pink,
@@ -60,7 +60,7 @@ $colors: (
 ) !default;
 // scss-docs-end colors-map
 
-$primary:       $blue !default;
+$primary:       $#2FA4C7 !default;
 $secondary:     $gray-600 !default;
 $success:       $green !default;
 $info:          $cyan !default;
@@ -91,15 +91,15 @@ $color-contrast-dark:      $black !default;
 $color-contrast-light:     $white !default;
 
 // fusv-disable
-$blue-100: tint-color($blue, 80%) !default;
-$blue-200: tint-color($blue, 60%) !default;
-$blue-300: tint-color($blue, 40%) !default;
-$blue-400: tint-color($blue, 20%) !default;
-$blue-500: $blue !default;
-$blue-600: shade-color($blue, 20%) !default;
-$blue-700: shade-color($blue, 40%) !default;
-$blue-800: shade-color($blue, 60%) !default;
-$blue-900: shade-color($blue, 80%) !default;
+$#2FA4C7-100: tint-color($#2FA4C7, 80%) !default;
+$#2FA4C7-200: tint-color($#2FA4C7, 60%) !default;
+$#2FA4C7-300: tint-color($#2FA4C7, 40%) !default;
+$#2FA4C7-400: tint-color($#2FA4C7, 20%) !default;
+$#2FA4C7-500: $#2FA4C7 !default;
+$#2FA4C7-600: shade-color($#2FA4C7, 20%) !default;
+$#2FA4C7-700: shade-color($#2FA4C7, 40%) !default;
+$#2FA4C7-800: shade-color($#2FA4C7, 60%) !default;
+$#2FA4C7-900: shade-color($#2FA4C7, 80%) !default;
 
 $indigo-100: tint-color($indigo, 80%) !default;
 $indigo-200: tint-color($indigo, 60%) !default;
