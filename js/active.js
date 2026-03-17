@@ -114,28 +114,28 @@
         $('#circle').circleProgress({
             size: 194,
             emptyFill: "rgba(0, 0, 0, .0)",
-            fill: '#92593d',
+            fill: '#93f794',
             thickness: '4',
             reverse: true
         });
         $('#circle2').circleProgress({
             size: 194,
             emptyFill: "rgba(0, 0, 0, .0)",
-            fill: '#92593d',
+            fill: '#30a4c6',
             thickness: '4',
             reverse: true
         });
         $('#circle3').circleProgress({
             size: 194,
             emptyFill: "rgba(0, 0, 0, .0)",
-            fill: '#92593d',
+            fill: '#93f794',
             thickness: '4',
             reverse: true
         });
         $('#circle4').circleProgress({
             size: 194,
             emptyFill: "rgba(0, 0, 0, .0)",
-            fill: '#92593d',
+            fill: '#30a4c6',
             thickness: '4',
             reverse: true
         });

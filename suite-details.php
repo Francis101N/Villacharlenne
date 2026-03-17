@@ -66,7 +66,7 @@ $suite = $result->fetch_assoc();
                     <nav class="classy-navbar justify-content-between" id="palatinNav">
 
                         <!-- Nav brand -->
-                        <a href="index" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
+                        <a href="index" class="nav-brand"><img src="img/core-img/" alt=""></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
